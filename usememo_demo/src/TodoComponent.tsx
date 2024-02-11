@@ -45,7 +45,7 @@ function TodoComponent() {
 
 const expensiveOperation = () => {
   let count = 0;
-  for (let i = 1; i <= 1000000000000000; i++) {
+  for (let i = 1; i <= 1000000000000; i++) {
     count += i;
   }
   return count;
