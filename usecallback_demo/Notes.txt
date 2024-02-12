@@ -4,4 +4,4 @@ if a fn is passed to child comp using props then it will rerender each time the 
 
 to prevent this, the fn can be wrapped inside useCallback - then it will not recreate the fn except when dependencies are changed - so it will not rerender the child comp unnecerrily - improves performance
 
-react memo - does not rerender child comp when props are not changed
+react memo - higher order fn - does not rerender child comp when props are not changed
