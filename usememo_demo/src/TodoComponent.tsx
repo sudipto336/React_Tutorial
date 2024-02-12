@@ -1,12 +1,17 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 function TodoComponent() {
   const [todos, setTodos] = useState<string[]>([]);
   const [count, setCount] = useState<number>(0);
 
+  //without useMemo - expensiveOperation() will be called on each render of this component (adding todo or increment/decrement counter) - degrades performance
   //const expensiveOperationResult = expensiveOperation();
 
-  const expensiveOperationResult = useMemo(() => expensiveOperation(), []);
+  //with useMemo with blank dependency array - expensiveOperation() will be called only on 1st render
+  //const expensiveOperationResult = useMemo(() => expensiveOperation(), []);
+
+  //with useMemo with dependency array - expensiveOperation() will be called only when dependency changes value
+  const expensiveOperationResult = useMemo(() => expensiveOperation(), [count]);
 
   const addTodo = () => {
     setTodos((previousTodos) => [...previousTodos, "New Todo"]);
@@ -20,7 +25,7 @@ function TodoComponent() {
     setCount((previousCount) => previousCount - 1);
   };
 
-  //without
+
   return (
     <div>
       <div>
@@ -45,9 +50,10 @@ function TodoComponent() {
 
 const expensiveOperation = () => {
   let count = 0;
-  for (let i = 1; i <= 1000000000000; i++) {
+  for (let i = 1; i <= 100000; i++) {
     count += i;
   }
+  console.log("calculated..");
   return count;
 };
 

@@ -1,0 +1,3 @@
+useMemo - caches result from any expensive fn call (inside callback fn (1st arg)) and returns that value each time without calling that fn on each render if the dependencies are not changed - returns a memoized value
+
+it improve performance as it does not call expensive fn on each render 
