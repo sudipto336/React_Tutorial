@@ -53,7 +53,7 @@ const expensiveOperation = () => {
   for (let i = 1; i <= 100000; i++) {
     count += i;
   }
-  console.log("calculated..");
+  console.log("Expensive fn called..");
   return count;
 };
 

@@ -1,0 +1,7 @@
+useCallback - returns a cached callback fn
+
+if a fn is passed to child comp using props then it will rerender each time the props is changed (like on each render of parent comp that props fn will be recreated, so props is changed)
+
+to prevent this, the fn can be wrapped inside useCallback - then it will not recreate the fn except when dependencies are changed - so it will not rerender the child comp unnecerrily - improves performance
+
+react memo - does not rerender child comp when props are not changed
