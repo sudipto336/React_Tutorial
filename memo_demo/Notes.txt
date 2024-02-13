@@ -1,0 +1,1 @@
+react memo - HOC - used to prevent/skip rerendering of component if props passed to that comp does not change - iomproves performance 
