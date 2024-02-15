@@ -1,0 +1,3 @@
+useReducer is used to manage state when there is custom complicated state update logic which involves multiple condition checks or the logic updates different pieces of state based on different conditions
+
+similar to useState
