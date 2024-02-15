@@ -9,6 +9,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "usecallback_demo", "usecall
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "memo_demo", "memo_demo\memo_demo.esproj", "{13BBC4CD-A630-4C7D-8807-9E2A05DC0493}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "usereducer_demo", "usereducer_demo\usereducer_demo.esproj", "{A977CF74-D023-4CCA-BEF8-B94F94DC1051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{13BBC4CD-A630-4C7D-8807-9E2A05DC0493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13BBC4CD-A630-4C7D-8807-9E2A05DC0493}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13BBC4CD-A630-4C7D-8807-9E2A05DC0493}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A977CF74-D023-4CCA-BEF8-B94F94DC1051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A977CF74-D023-4CCA-BEF8-B94F94DC1051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A977CF74-D023-4CCA-BEF8-B94F94DC1051}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A977CF74-D023-4CCA-BEF8-B94F94DC1051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A977CF74-D023-4CCA-BEF8-B94F94DC1051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A977CF74-D023-4CCA-BEF8-B94F94DC1051}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
