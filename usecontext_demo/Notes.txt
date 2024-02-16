@@ -1,0 +1,3 @@
+Used to avoid prop drilling (to pass data from 1 component to another component, we can pass data as props through each component in comonent hierarchy tree)
+
+Used to manage app state globally
