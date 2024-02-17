@@ -1,3 +1,5 @@
-Used to avoid prop drilling (to pass data from 1 component to another component, we can pass data as props through each component in comonent hierarchy tree)
+Can be used to avoid prop drilling (to pass data from 1 component to another component, we can pass data as props through each component in component tree - it is redundant as even though all component in the tree, does not need the data, but need to pass data as props to child)
 
-Used to manage app state globally
+Can be used to manage app state globally inside highest parent component in the component tree, so that any of child components in the component tree can access this without prop drilling
+
+
