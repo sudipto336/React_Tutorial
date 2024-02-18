@@ -1,16 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import WithCustomHook from "./components/WithCustomHook";
+import WithoutCustomHook from "./components/WithoutCustomHook";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <div className="flexStyle">
+        <div className="withOutCustomHook">
+          <WithoutCustomHook />
+        </div>
+        <div className="withCustomHook">
+          <WithCustomHook />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
