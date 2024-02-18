@@ -13,6 +13,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "usereducer_demo", "usereduc
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "usecontext_demo", "usecontext_demo\usecontext_demo.esproj", "{99F03601-44A9-4D6E-8671-F5F62BF53453}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "custom_hook_demo", "custom_hook_demo\custom_hook_demo.esproj", "{0AA423E4-697F-4611-8A1D-0A51B9D0C6FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,12 @@ Global
 		{99F03601-44A9-4D6E-8671-F5F62BF53453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F03601-44A9-4D6E-8671-F5F62BF53453}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99F03601-44A9-4D6E-8671-F5F62BF53453}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0AA423E4-697F-4611-8A1D-0A51B9D0C6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA423E4-697F-4611-8A1D-0A51B9D0C6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA423E4-697F-4611-8A1D-0A51B9D0C6FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0AA423E4-697F-4611-8A1D-0A51B9D0C6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA423E4-697F-4611-8A1D-0A51B9D0C6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA423E4-697F-4611-8A1D-0A51B9D0C6FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
