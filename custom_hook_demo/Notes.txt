@@ -1,0 +1,5 @@
+custom hook can be used to avoid duplicate code in multiple components
+
+if a common logic is used by multiple components then that can be extracted into a custom hook and that can be used by those components
+
+custom hook name should be start with 'use'
