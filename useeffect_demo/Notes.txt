@@ -1,0 +1,7 @@
+useEffect used to perform side effects
+
+useEffect with no dependency array (2nd arg) - callback fn (1st arg) gets called on every render
+useEffect with blank dependency array (2nd arg) - callback fn (1st arg) gets called only once on 1st render
+useEffect with element inside dependency array (2nd arg) - callback fn (1st arg) gets called when the value of the dependencies gets changed
+
+when state changes, component gets rendered
