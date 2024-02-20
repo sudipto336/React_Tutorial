@@ -1,0 +1,9 @@
+useState used to manage state inside functional component
+
+useState returns current state value and a state updating function
+
+state can be updated by using state updating fn, updating state directly (assigning value to state) throws error 
+
+for updating value of property of obj in state, use spread operator otherwise other properties might be removed
+
+component gets rendered on each state update
