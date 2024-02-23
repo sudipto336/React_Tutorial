@@ -1,0 +1,9 @@
+Forward ref is used pass ref from parent component to any child component like props
+
+By forwarding reference, parent component can access, control, interact with any DOM element of child component  usign the reference
+
+React.forwardRef(component_fn)
+
+Using this any DOM element (reference) of child compoent can be exposed to parent component
+
+By default child component containing any DOM element, does not expose ref to that element to parent component
