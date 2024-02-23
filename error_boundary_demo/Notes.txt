@@ -1,0 +1,14 @@
+Error boundary is a component which can catch any JS error thrown from any component in child component tree using componentDidCatch() or getDerivedStateFromError() and logs the error and displays a fallback UI if any error is thrown
+
+We can use componentDidCatch() to log error and getDerivedStateFromError() to render a fallback UI
+
+If any classs component defines componentDidCatch() or getDerivedStateFromError() or both, then it becomes error boundary
+
+Error boundary cant catch 
+
+error thrown inside async code (setTimeout)
+error thrown inside event handler (as event handler does not get called while rendering, so if error thrown, react still knows what to display on screen, so react does not need error boundary for handling error inside event handler - error can be caught inside event handler using try/catch)
+error thrown inside error boundary itself
+
+
+if any error thrown inside any lifecycle method inside a component in a component tree, then that error propagates to closest error boundary
