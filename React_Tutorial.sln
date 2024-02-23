@@ -19,6 +19,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "useeffect_demo", "useeffect
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "usestate_demo", "usestate_demo\usestate_demo.esproj", "{89D315EA-95CD-46F1-A0AF-F1F3824A27B9}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "forward_ref_demo", "forward_ref_demo\forward_ref_demo.esproj", "{1F2E8C2D-886C-4234-A6B7-00A930745B93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,12 @@ Global
 		{89D315EA-95CD-46F1-A0AF-F1F3824A27B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D315EA-95CD-46F1-A0AF-F1F3824A27B9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89D315EA-95CD-46F1-A0AF-F1F3824A27B9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1F2E8C2D-886C-4234-A6B7-00A930745B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2E8C2D-886C-4234-A6B7-00A930745B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2E8C2D-886C-4234-A6B7-00A930745B93}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1F2E8C2D-886C-4234-A6B7-00A930745B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2E8C2D-886C-4234-A6B7-00A930745B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2E8C2D-886C-4234-A6B7-00A930745B93}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
