@@ -1,0 +1,21 @@
+React.createPortal() -  1st param is the JSX element/string/fragment to be rendered as a child element inside the DOM node passed (passed as 2nd param)
+
+using portal, any JSX element/string/fragment can be rendered as a child inside a DOM node which is outside the React component tree
+
+without using portal, any returned JSX element from a component, gets rendered inside that component only i.e as child of nearest parent
+
+portal is useful when the containing component is hidden (overflow:hidden or z-index) but the element needs to be shown (modal, dialog, tooltip)
+
+Portal can change physical postion of an HTML element inside DOM tree which is different than React component tree
+
+portal can teleport a HTML element (including fragment) to any DOM node
+
+Even though portal element can be physically present anywhere inside DOM tree
+
+-> portal element acts as normal child element of the containing React component tree
+
+-> so portal element can acess the context passed from parents/ancestors in its containing component tree
+
+-> or event (fired from portal element) can bubble/propagate to ancestors in containing React component tree even though those components are not ancestors of portal element in DOM tree
+
+any element regardless whether its portal or non portal, acts as normal child of ancestors of containing React component tree
